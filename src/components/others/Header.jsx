@@ -1,7 +1,3 @@
-import React, { useState } from 'react'
-import { setLocalStorage } from '../../Utils/localStorage'
-
-
 const Header = ({data}) => {
   // console.log(data)
 

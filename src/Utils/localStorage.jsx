@@ -1,5 +1,5 @@
 
-const employees = [
+export const employees = [
   {
       "id": 1,
       "firstName": "Arjun",

@@ -5,7 +5,7 @@ const AllTask=()=>{
 
     const authData = useContext(AuthContext)
 
-    console.log(authData.employees)
+    // console.log(authData.employees)
     return(
         <div id="tasklist" className="bg-[#1c1c1c] p-5 rounded mt-5 overflow-auto h-48">
 
