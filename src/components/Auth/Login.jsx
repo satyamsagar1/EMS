@@ -27,6 +27,15 @@ const Login = ({handleLogin}) => {
                     SubmitHandler(e)
                 }}
                 className=" flex flex-col gap-4">
+
+                    <div>
+                        <div>Admin :</div>
+                        <p>mail - admin@e.com</p>
+                        <p>password - 123</p>
+                        <div>Employee :</div>
+                        <p>mail - employee(1-5)@example.com</p>
+                        <p>password - 123</p>
+                    </div>
                     
                     <input 
                         value={email}
